@@ -14,10 +14,10 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	rpc "github.com/youtube/vitess/go/rpcplus"
-	"github.com/youtube/vitess/go/rpcwrap/auth"
-	"github.com/youtube/vitess/go/rpcwrap/proto"
-	"github.com/youtube/vitess/go/stats"
+	rpc "github.com/henryanand/vitess/go/rpcplus"
+	"github.com/henryanand/vitess/go/rpcwrap/auth"
+	"github.com/henryanand/vitess/go/rpcwrap/proto"
+	"github.com/henryanand/vitess/go/stats"
 )
 
 const (

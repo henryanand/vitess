@@ -7,8 +7,8 @@ package zktopo
 import (
 	"path"
 
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/zk"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/zk"
 )
 
 /*

@@ -5,8 +5,8 @@ import (
 
 	log "github.com/golang/glog"
 	//	rpc "github.com/youtube/vitess/go/rpcplus"
-	"github.com/youtube/vitess/go/rpcwrap/auth"
-	"github.com/youtube/vitess/go/rpcwrap/bsonrpc"
+	"github.com/henryanand/vitess/go/rpcwrap/auth"
+	"github.com/henryanand/vitess/go/rpcwrap/bsonrpc"
 )
 
 var (

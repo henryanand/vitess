@@ -8,10 +8,10 @@ import (
 	"flag"
 	"time"
 
-	"github.com/youtube/vitess/go/stats"
-	"github.com/youtube/vitess/go/vt/servenv"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/vtgate"
+	"github.com/henryanand/vitess/go/stats"
+	"github.com/henryanand/vitess/go/vt/servenv"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/vtgate"
 )
 
 var (

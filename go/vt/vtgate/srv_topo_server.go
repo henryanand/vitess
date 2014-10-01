@@ -15,10 +15,10 @@ import (
 
 	log "github.com/golang/glog"
 
-	"github.com/youtube/vitess/go/stats"
-	"github.com/youtube/vitess/go/vt/context"
-	"github.com/youtube/vitess/go/vt/health"
-	"github.com/youtube/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/stats"
+	"github.com/henryanand/vitess/go/vt/context"
+	"github.com/henryanand/vitess/go/vt/health"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 var (

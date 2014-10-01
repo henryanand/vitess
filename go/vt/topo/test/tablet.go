@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/youtube/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 func tabletEqual(left, right *topo.Tablet) (bool, error) {

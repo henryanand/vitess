@@ -10,15 +10,15 @@ import (
 	"strings"
 	"time"
 
-	mproto "github.com/youtube/vitess/go/mysql/proto"
-	rpc "github.com/youtube/vitess/go/rpcplus"
-	"github.com/youtube/vitess/go/rpcwrap/bsonrpc"
-	"github.com/youtube/vitess/go/sqltypes"
-	"github.com/youtube/vitess/go/vt/key"
-	"github.com/youtube/vitess/go/vt/logutil"
-	myproto "github.com/youtube/vitess/go/vt/mysqlctl/proto"
-	tproto "github.com/youtube/vitess/go/vt/tabletserver/proto"
-	"github.com/youtube/vitess/go/vt/topo"
+	mproto "github.com/henryanand/vitess/go/mysql/proto"
+	rpc "github.com/henryanand/vitess/go/rpcplus"
+	"github.com/henryanand/vitess/go/rpcwrap/bsonrpc"
+	"github.com/henryanand/vitess/go/sqltypes"
+	"github.com/henryanand/vitess/go/vt/key"
+	"github.com/henryanand/vitess/go/vt/logutil"
+	myproto "github.com/henryanand/vitess/go/vt/mysqlctl/proto"
+	tproto "github.com/henryanand/vitess/go/vt/tabletserver/proto"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 // QueryResultReader will stream rows towards the output channel.

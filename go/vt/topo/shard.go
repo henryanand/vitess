@@ -12,8 +12,8 @@ import (
 
 	log "github.com/golang/glog"
 
-	"github.com/youtube/vitess/go/vt/concurrency"
-	"github.com/youtube/vitess/go/vt/key"
+	"github.com/henryanand/vitess/go/vt/concurrency"
+	"github.com/henryanand/vitess/go/vt/key"
 )
 
 // Functions for dealing with shard representations in topology.

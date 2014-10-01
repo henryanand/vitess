@@ -9,14 +9,14 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/event"
-	blproto "github.com/youtube/vitess/go/vt/binlog/proto"
-	"github.com/youtube/vitess/go/vt/concurrency"
-	"github.com/youtube/vitess/go/vt/key"
-	myproto "github.com/youtube/vitess/go/vt/mysqlctl/proto"
-	"github.com/youtube/vitess/go/vt/tabletmanager/actionnode"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/topotools/events"
+	"github.com/henryanand/vitess/go/event"
+	blproto "github.com/henryanand/vitess/go/vt/binlog/proto"
+	"github.com/henryanand/vitess/go/vt/concurrency"
+	"github.com/henryanand/vitess/go/vt/key"
+	myproto "github.com/henryanand/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/actionnode"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/topotools/events"
 )
 
 // keyspace related methods for Wrangler

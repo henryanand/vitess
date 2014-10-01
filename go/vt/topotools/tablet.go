@@ -26,10 +26,10 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/vt/concurrency"
-	"github.com/youtube/vitess/go/vt/hook"
-	"github.com/youtube/vitess/go/vt/key"
-	"github.com/youtube/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/concurrency"
+	"github.com/henryanand/vitess/go/vt/hook"
+	"github.com/henryanand/vitess/go/vt/key"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 // ConfigureTabletHook configures the right parameters for a hook

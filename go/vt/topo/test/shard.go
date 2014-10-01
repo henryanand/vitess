@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/youtube/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 func shardEqual(left, right *topo.Shard) (bool, error) {

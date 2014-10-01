@@ -12,13 +12,13 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/rpcwrap"
-	"github.com/youtube/vitess/go/vt/context"
-	"github.com/youtube/vitess/go/vt/logutil"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/vtctl"
-	"github.com/youtube/vitess/go/vt/vtctl/gorpcproto"
-	"github.com/youtube/vitess/go/vt/wrangler"
+	"github.com/henryanand/vitess/go/rpcwrap"
+	"github.com/henryanand/vitess/go/vt/context"
+	"github.com/henryanand/vitess/go/vt/logutil"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/vtctl"
+	"github.com/henryanand/vitess/go/vt/vtctl/gorpcproto"
+	"github.com/henryanand/vitess/go/vt/wrangler"
 )
 
 // VtctlServer is our RPC server

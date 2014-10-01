@@ -14,7 +14,7 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/stats"
+	"github.com/henryanand/vitess/go/stats"
 )
 
 var connectionCount = stats.NewInt("ConnectionCount")

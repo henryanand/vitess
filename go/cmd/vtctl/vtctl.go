@@ -16,13 +16,13 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/exit"
-	"github.com/youtube/vitess/go/vt/logutil"
-	myproto "github.com/youtube/vitess/go/vt/mysqlctl/proto"
-	"github.com/youtube/vitess/go/vt/tabletmanager/initiator"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/vtctl"
-	"github.com/youtube/vitess/go/vt/wrangler"
+	"github.com/henryanand/vitess/go/exit"
+	"github.com/henryanand/vitess/go/vt/logutil"
+	myproto "github.com/henryanand/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/initiator"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/vtctl"
+	"github.com/henryanand/vitess/go/vt/wrangler"
 )
 
 var (

@@ -11,8 +11,8 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/rpcplus"
-	"github.com/youtube/vitess/go/rpcwrap/bsonrpc"
+	"github.com/henryanand/vitess/go/rpcplus"
+	"github.com/henryanand/vitess/go/rpcwrap/bsonrpc"
 	"launchpad.net/gozk/zookeeper"
 )
 

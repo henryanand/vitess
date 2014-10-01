@@ -12,11 +12,11 @@ import (
 	"strings"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/stats"
-	"github.com/youtube/vitess/go/vt/binlog"
-	"github.com/youtube/vitess/go/vt/tabletserver"
-	"github.com/youtube/vitess/go/vt/tabletserver/planbuilder"
-	"github.com/youtube/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/stats"
+	"github.com/henryanand/vitess/go/vt/binlog"
+	"github.com/henryanand/vitess/go/vt/tabletserver"
+	"github.com/henryanand/vitess/go/vt/tabletserver/planbuilder"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 var (

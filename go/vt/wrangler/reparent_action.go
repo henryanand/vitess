@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/youtube/vitess/go/vt/hook"
-	myproto "github.com/youtube/vitess/go/vt/mysqlctl/proto"
-	"github.com/youtube/vitess/go/vt/tabletmanager/actionnode"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/topotools"
+	"github.com/henryanand/vitess/go/vt/hook"
+	myproto "github.com/henryanand/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/actionnode"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/topotools"
 )
 
 // helper struct to queue up results

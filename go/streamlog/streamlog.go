@@ -12,9 +12,9 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/acl"
-	"github.com/youtube/vitess/go/stats"
-	"github.com/youtube/vitess/go/sync2"
+	"github.com/henryanand/vitess/go/acl"
+	"github.com/henryanand/vitess/go/stats"
+	"github.com/henryanand/vitess/go/sync2"
 )
 
 var droppedMessages = stats.NewCounters("StreamlogDroppedMessages")

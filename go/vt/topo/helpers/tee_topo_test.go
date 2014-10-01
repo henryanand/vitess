@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/topo/test"
-	"github.com/youtube/vitess/go/vt/zktopo"
-	"github.com/youtube/vitess/go/zk"
-	"github.com/youtube/vitess/go/zk/fakezk"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/topo/test"
+	"github.com/henryanand/vitess/go/vt/zktopo"
+	"github.com/henryanand/vitess/go/zk"
+	"github.com/henryanand/vitess/go/zk/fakezk"
 	"launchpad.net/gozk/zookeeper"
 )
 

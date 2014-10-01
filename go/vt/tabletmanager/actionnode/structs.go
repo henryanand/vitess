@@ -7,9 +7,9 @@ package actionnode
 import (
 	"fmt"
 
-	"github.com/youtube/vitess/go/vt/key"
-	myproto "github.com/youtube/vitess/go/vt/mysqlctl/proto"
-	"github.com/youtube/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/key"
+	myproto "github.com/henryanand/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 /*

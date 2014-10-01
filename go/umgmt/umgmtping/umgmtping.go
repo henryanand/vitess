@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"github.com/youtube/vitess/go/umgmt"
+	"github.com/henryanand/vitess/go/umgmt"
 )
 
 var sockPath = flag.String("sock-path", "", "")

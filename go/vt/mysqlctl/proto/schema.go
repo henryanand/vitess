@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/youtube/vitess/go/jscfg"
-	"github.com/youtube/vitess/go/vt/concurrency"
+	"github.com/henryanand/vitess/go/jscfg"
+	"github.com/henryanand/vitess/go/vt/concurrency"
 )
 
 const (

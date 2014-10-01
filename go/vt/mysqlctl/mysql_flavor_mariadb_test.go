@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/youtube/vitess/go/mysql"
-	"github.com/youtube/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/mysql"
+	"github.com/henryanand/vitess/go/vt/mysqlctl/proto"
 )
 
 func TestMariadbStandaloneGTIDEventHasGTID(t *testing.T) {

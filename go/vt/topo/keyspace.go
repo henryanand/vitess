@@ -5,7 +5,7 @@
 package topo
 
 import (
-	"github.com/youtube/vitess/go/vt/key"
+	"github.com/henryanand/vitess/go/vt/key"
 )
 
 // This file contains keyspace utility functions

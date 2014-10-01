@@ -10,14 +10,14 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/sqltypes"
-	"github.com/youtube/vitess/go/stats"
-	"github.com/youtube/vitess/go/sync2"
-	"github.com/youtube/vitess/go/tb"
-	"github.com/youtube/vitess/go/vt/binlog"
-	blproto "github.com/youtube/vitess/go/vt/binlog/proto"
-	"github.com/youtube/vitess/go/vt/mysqlctl"
-	myproto "github.com/youtube/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/sqltypes"
+	"github.com/henryanand/vitess/go/stats"
+	"github.com/henryanand/vitess/go/sync2"
+	"github.com/henryanand/vitess/go/tb"
+	"github.com/henryanand/vitess/go/vt/binlog"
+	blproto "github.com/henryanand/vitess/go/vt/binlog/proto"
+	"github.com/henryanand/vitess/go/vt/mysqlctl"
+	myproto "github.com/henryanand/vitess/go/vt/mysqlctl/proto"
 )
 
 // RowcacheInvalidator runs the service to invalidate

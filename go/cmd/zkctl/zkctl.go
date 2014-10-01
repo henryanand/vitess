@@ -12,8 +12,8 @@ import (
 	"strings"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/vt/logutil"
-	"github.com/youtube/vitess/go/zk/zkctl"
+	"github.com/henryanand/vitess/go/vt/logutil"
+	"github.com/henryanand/vitess/go/zk/zkctl"
 )
 
 var usage = `

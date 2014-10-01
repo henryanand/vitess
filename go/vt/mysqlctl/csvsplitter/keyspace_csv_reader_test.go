@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/youtube/vitess/go/testfiles"
-	"github.com/youtube/vitess/go/vt/key"
+	"github.com/henryanand/vitess/go/testfiles"
+	"github.com/henryanand/vitess/go/vt/key"
 )
 
 type pair struct {

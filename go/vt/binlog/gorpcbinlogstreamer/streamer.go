@@ -5,9 +5,9 @@
 package gorpcbinlogstreamer
 
 import (
-	"github.com/youtube/vitess/go/rpcwrap"
-	"github.com/youtube/vitess/go/vt/binlog"
-	"github.com/youtube/vitess/go/vt/binlog/proto"
+	"github.com/henryanand/vitess/go/rpcwrap"
+	"github.com/henryanand/vitess/go/vt/binlog"
+	"github.com/henryanand/vitess/go/vt/binlog/proto"
 )
 
 type UpdateStream struct {

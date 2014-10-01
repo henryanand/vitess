@@ -8,13 +8,13 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	mproto "github.com/youtube/vitess/go/mysql/proto"
-	blproto "github.com/youtube/vitess/go/vt/binlog/proto"
-	"github.com/youtube/vitess/go/vt/hook"
-	"github.com/youtube/vitess/go/vt/logutil"
-	myproto "github.com/youtube/vitess/go/vt/mysqlctl/proto"
-	"github.com/youtube/vitess/go/vt/tabletmanager/actionnode"
-	"github.com/youtube/vitess/go/vt/topo"
+	mproto "github.com/henryanand/vitess/go/mysql/proto"
+	blproto "github.com/henryanand/vitess/go/vt/binlog/proto"
+	"github.com/henryanand/vitess/go/vt/hook"
+	"github.com/henryanand/vitess/go/vt/logutil"
+	myproto "github.com/henryanand/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/actionnode"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 // ErrFunc is used by streaming RPCs that don't return a specific result

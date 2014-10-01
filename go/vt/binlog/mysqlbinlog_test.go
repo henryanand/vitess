@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/youtube/vitess/go/vt/logutil"
+	"github.com/henryanand/vitess/go/vt/logutil"
 )
 
 var (

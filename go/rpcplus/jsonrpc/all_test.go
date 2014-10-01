@@ -12,7 +12,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/youtube/vitess/go/rpcplus"
+	"github.com/henryanand/vitess/go/rpcplus"
 )
 
 type Args struct {

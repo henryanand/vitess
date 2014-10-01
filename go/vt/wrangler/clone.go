@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/vt/concurrency"
-	"github.com/youtube/vitess/go/vt/tabletmanager/actionnode"
-	"github.com/youtube/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/concurrency"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/actionnode"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 // forceMasterSnapshot: Normally a master is not a viable tablet to snapshot.

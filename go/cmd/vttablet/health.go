@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
-	"github.com/youtube/vitess/go/vt/health"
-	"github.com/youtube/vitess/go/vt/mysqlctl"
-	"github.com/youtube/vitess/go/vt/servenv"
+	"github.com/henryanand/vitess/go/vt/health"
+	"github.com/henryanand/vitess/go/vt/mysqlctl"
+	"github.com/henryanand/vitess/go/vt/servenv"
 )
 
 var (

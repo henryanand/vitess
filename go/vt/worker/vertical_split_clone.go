@@ -14,16 +14,16 @@ import (
 	ttemplate "text/template"
 	"time"
 
-	"github.com/youtube/vitess/go/event"
-	mproto "github.com/youtube/vitess/go/mysql/proto"
-	"github.com/youtube/vitess/go/sqltypes"
-	"github.com/youtube/vitess/go/sync2"
-	"github.com/youtube/vitess/go/vt/binlog/binlogplayer"
-	"github.com/youtube/vitess/go/vt/mysqlctl"
-	myproto "github.com/youtube/vitess/go/vt/mysqlctl/proto"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/worker/events"
-	"github.com/youtube/vitess/go/vt/wrangler"
+	"github.com/henryanand/vitess/go/event"
+	mproto "github.com/henryanand/vitess/go/mysql/proto"
+	"github.com/henryanand/vitess/go/sqltypes"
+	"github.com/henryanand/vitess/go/sync2"
+	"github.com/henryanand/vitess/go/vt/binlog/binlogplayer"
+	"github.com/henryanand/vitess/go/vt/mysqlctl"
+	myproto "github.com/henryanand/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/worker/events"
+	"github.com/henryanand/vitess/go/vt/wrangler"
 )
 
 const (

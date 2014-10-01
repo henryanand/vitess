@@ -9,12 +9,12 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/event"
-	cc "github.com/youtube/vitess/go/vt/concurrency"
-	"github.com/youtube/vitess/go/vt/key"
-	"github.com/youtube/vitess/go/vt/tabletmanager/actionnode"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/topotools/events"
+	"github.com/henryanand/vitess/go/event"
+	cc "github.com/henryanand/vitess/go/vt/concurrency"
+	"github.com/henryanand/vitess/go/vt/key"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/actionnode"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/topotools/events"
 )
 
 // replaceError replaces original with recent if recent is not nil,

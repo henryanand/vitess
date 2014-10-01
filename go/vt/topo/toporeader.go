@@ -1,8 +1,8 @@
 package topo
 
 import (
-	rpc "github.com/youtube/vitess/go/rpcplus"
-	"github.com/youtube/vitess/go/rpcwrap/proto"
+	rpc "github.com/henryanand/vitess/go/rpcplus"
+	"github.com/henryanand/vitess/go/rpcwrap/proto"
 )
 
 // TopoReader returns read only information about the topology.

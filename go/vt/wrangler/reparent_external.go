@@ -7,11 +7,11 @@ package wrangler
 import (
 	"fmt"
 
-	"github.com/youtube/vitess/go/event"
-	"github.com/youtube/vitess/go/vt/tabletmanager/actionnode"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/topotools"
-	"github.com/youtube/vitess/go/vt/topotools/events"
+	"github.com/henryanand/vitess/go/event"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/actionnode"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/topotools"
+	"github.com/henryanand/vitess/go/vt/topotools/events"
 )
 
 // ShardExternallyReparented updates the topology after the master

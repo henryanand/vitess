@@ -16,12 +16,12 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/db"
-	mproto "github.com/youtube/vitess/go/mysql/proto"
-	"github.com/youtube/vitess/go/netutil"
-	"github.com/youtube/vitess/go/sqltypes"
-	"github.com/youtube/vitess/go/vt/tabletserver/tabletconn"
-	"github.com/youtube/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/db"
+	mproto "github.com/henryanand/vitess/go/mysql/proto"
+	"github.com/henryanand/vitess/go/netutil"
+	"github.com/henryanand/vitess/go/sqltypes"
+	"github.com/henryanand/vitess/go/vt/tabletserver/tabletconn"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 var (

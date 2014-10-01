@@ -12,10 +12,10 @@ import (
 	"strings"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/vt/dbconfigs"
-	"github.com/youtube/vitess/go/vt/key"
-	"github.com/youtube/vitess/go/vt/logutil"
-	"github.com/youtube/vitess/go/vt/mysqlctl"
+	"github.com/henryanand/vitess/go/vt/dbconfigs"
+	"github.com/henryanand/vitess/go/vt/key"
+	"github.com/henryanand/vitess/go/vt/logutil"
+	"github.com/henryanand/vitess/go/vt/mysqlctl"
 )
 
 var port = flag.Int("port", 6612, "vtocc port")

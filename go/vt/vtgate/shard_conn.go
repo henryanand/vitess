@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	mproto "github.com/youtube/vitess/go/mysql/proto"
-	"github.com/youtube/vitess/go/vt/context"
-	tproto "github.com/youtube/vitess/go/vt/tabletserver/proto"
-	"github.com/youtube/vitess/go/vt/tabletserver/tabletconn"
-	"github.com/youtube/vitess/go/vt/topo"
+	mproto "github.com/henryanand/vitess/go/mysql/proto"
+	"github.com/henryanand/vitess/go/vt/context"
+	tproto "github.com/henryanand/vitess/go/vt/tabletserver/proto"
+	"github.com/henryanand/vitess/go/vt/tabletserver/tabletconn"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 // ShardConn represents a load balanced connection to a group

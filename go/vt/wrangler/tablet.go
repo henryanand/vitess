@@ -8,10 +8,10 @@ import (
 	"fmt"
 
 	log "github.com/golang/glog"
-	mproto "github.com/youtube/vitess/go/mysql/proto"
-	"github.com/youtube/vitess/go/vt/tabletmanager/actionnode"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/topotools"
+	mproto "github.com/henryanand/vitess/go/mysql/proto"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/actionnode"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/topotools"
 )
 
 // Tablet related methods for wrangler

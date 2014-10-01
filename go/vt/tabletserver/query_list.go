@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/youtube/vitess/go/vt/context"
-	"github.com/youtube/vitess/go/vt/tabletserver/proto"
+	"github.com/henryanand/vitess/go/vt/context"
+	"github.com/henryanand/vitess/go/vt/tabletserver/proto"
 )
 
 // QueryDetail is a simple wrapper for Query, Context and PoolConnection

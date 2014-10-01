@@ -3,7 +3,7 @@ package zktopo
 import (
 	"testing"
 
-	"github.com/youtube/vitess/go/vt/topo/test"
+	"github.com/henryanand/vitess/go/vt/topo/test"
 )
 
 func TestKeyspace(t *testing.T) {

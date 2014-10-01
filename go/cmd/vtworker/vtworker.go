@@ -22,12 +22,12 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/vt/logutil"
-	"github.com/youtube/vitess/go/vt/servenv"
-	"github.com/youtube/vitess/go/vt/tabletmanager/initiator"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/worker"
-	"github.com/youtube/vitess/go/vt/wrangler"
+	"github.com/henryanand/vitess/go/vt/logutil"
+	"github.com/henryanand/vitess/go/vt/servenv"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/initiator"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/worker"
+	"github.com/henryanand/vitess/go/vt/wrangler"
 )
 
 var (

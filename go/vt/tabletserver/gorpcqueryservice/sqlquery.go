@@ -5,11 +5,11 @@
 package gorpcqueryservice
 
 import (
-	mproto "github.com/youtube/vitess/go/mysql/proto"
-	"github.com/youtube/vitess/go/rpcwrap"
-	rpcproto "github.com/youtube/vitess/go/rpcwrap/proto"
-	"github.com/youtube/vitess/go/vt/tabletserver"
-	"github.com/youtube/vitess/go/vt/tabletserver/proto"
+	mproto "github.com/henryanand/vitess/go/mysql/proto"
+	"github.com/henryanand/vitess/go/rpcwrap"
+	rpcproto "github.com/henryanand/vitess/go/rpcwrap/proto"
+	"github.com/henryanand/vitess/go/vt/tabletserver"
+	"github.com/henryanand/vitess/go/vt/tabletserver/proto"
 )
 
 type SqlQuery struct {

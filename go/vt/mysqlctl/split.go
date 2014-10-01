@@ -94,16 +94,16 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/bufio2"
-	"github.com/youtube/vitess/go/cgzip"
-	"github.com/youtube/vitess/go/sync2"
-	"github.com/youtube/vitess/go/vt/binlog/binlogplayer"
-	"github.com/youtube/vitess/go/vt/concurrency"
-	"github.com/youtube/vitess/go/vt/dbconnpool"
-	"github.com/youtube/vitess/go/vt/hook"
-	"github.com/youtube/vitess/go/vt/key"
-	"github.com/youtube/vitess/go/vt/mysqlctl/csvsplitter"
-	"github.com/youtube/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/bufio2"
+	"github.com/henryanand/vitess/go/cgzip"
+	"github.com/henryanand/vitess/go/sync2"
+	"github.com/henryanand/vitess/go/vt/binlog/binlogplayer"
+	"github.com/henryanand/vitess/go/vt/concurrency"
+	"github.com/henryanand/vitess/go/vt/dbconnpool"
+	"github.com/henryanand/vitess/go/vt/hook"
+	"github.com/henryanand/vitess/go/vt/key"
+	"github.com/henryanand/vitess/go/vt/mysqlctl/csvsplitter"
+	"github.com/henryanand/vitess/go/vt/mysqlctl/proto"
 )
 
 const (

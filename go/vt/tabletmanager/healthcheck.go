@@ -15,12 +15,12 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/timer"
-	"github.com/youtube/vitess/go/vt/health"
-	"github.com/youtube/vitess/go/vt/logutil"
-	"github.com/youtube/vitess/go/vt/servenv"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/vt/topotools"
+	"github.com/henryanand/vitess/go/timer"
+	"github.com/henryanand/vitess/go/vt/health"
+	"github.com/henryanand/vitess/go/vt/logutil"
+	"github.com/henryanand/vitess/go/vt/servenv"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/vt/topotools"
 )
 
 var (

@@ -5,9 +5,9 @@
 package events
 
 import (
-	base "github.com/youtube/vitess/go/vt/events"
-	"github.com/youtube/vitess/go/vt/tabletmanager/actionnode"
-	"github.com/youtube/vitess/go/vt/topo"
+	base "github.com/henryanand/vitess/go/vt/events"
+	"github.com/henryanand/vitess/go/vt/tabletmanager/actionnode"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 // MultiSnapshot is an event that triggers when a tablet has completed a

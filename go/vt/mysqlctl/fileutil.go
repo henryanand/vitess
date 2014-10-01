@@ -23,9 +23,9 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/cgzip"
-	"github.com/youtube/vitess/go/vt/key"
-	"github.com/youtube/vitess/go/vt/mysqlctl/proto"
+	"github.com/henryanand/vitess/go/cgzip"
+	"github.com/henryanand/vitess/go/vt/key"
+	"github.com/henryanand/vitess/go/vt/mysqlctl/proto"
 )
 
 // Use this to simulate failures in tests

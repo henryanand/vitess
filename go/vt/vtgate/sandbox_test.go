@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
-	mproto "github.com/youtube/vitess/go/mysql/proto"
-	"github.com/youtube/vitess/go/sqltypes"
-	"github.com/youtube/vitess/go/sync2"
-	"github.com/youtube/vitess/go/vt/context"
-	"github.com/youtube/vitess/go/vt/key"
-	tproto "github.com/youtube/vitess/go/vt/tabletserver/proto"
-	"github.com/youtube/vitess/go/vt/tabletserver/tabletconn"
-	"github.com/youtube/vitess/go/vt/topo"
+	mproto "github.com/henryanand/vitess/go/mysql/proto"
+	"github.com/henryanand/vitess/go/sqltypes"
+	"github.com/henryanand/vitess/go/sync2"
+	"github.com/henryanand/vitess/go/vt/context"
+	"github.com/henryanand/vitess/go/vt/key"
+	tproto "github.com/henryanand/vitess/go/vt/tabletserver/proto"
+	"github.com/henryanand/vitess/go/vt/tabletserver/tabletconn"
+	"github.com/henryanand/vitess/go/vt/topo"
 )
 
 // sandbox_test.go provides a sandbox for unit testing VTGate.

@@ -13,12 +13,12 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/rpcplus"
-	"github.com/youtube/vitess/go/rpcwrap/bsonrpc"
-	"github.com/youtube/vitess/go/sync2"
-	"github.com/youtube/vitess/go/vt/logutil"
-	"github.com/youtube/vitess/go/vt/topo"
-	"github.com/youtube/vitess/go/zk"
+	"github.com/henryanand/vitess/go/rpcplus"
+	"github.com/henryanand/vitess/go/rpcwrap/bsonrpc"
+	"github.com/henryanand/vitess/go/sync2"
+	"github.com/henryanand/vitess/go/vt/logutil"
+	"github.com/henryanand/vitess/go/vt/topo"
+	"github.com/henryanand/vitess/go/zk"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/youtube/vitess/go/testfiles"
+	"github.com/henryanand/vitess/go/testfiles"
 )
 
 func readLines(t *testing.T, name string) []string {
