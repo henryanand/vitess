@@ -117,7 +117,7 @@ def mysql_binary_path(name):
 
 # topology server management: we use zookeeper in all the tests
 topo_server_implementation = 'zookeeper'
-hostname = socket.gethostname()
+hostname = socket.getfqdn()
 zk_port_base = reserve_ports(3)
 zkocc_port_base = reserve_ports(3)
 def topo_server_setup(add_bad_host=False):

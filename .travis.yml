@@ -1,0 +1,16 @@
+language: go
+env:
+  - MYSQL_FLAVOR=MariaDB
+  - TEST_SUITE=unit_test
+  - TEST_SUITE=queryservice_test
+before_install:
+  - set -e
+  - bash -v travis/before_install.sh
+install:
+  - bash -v travis/install.sh
+  - source dev.env
+script:
+  - bash -v travis/script.sh
+after_success:
+  - bash -v travis/after_success.sh
+  - set +e

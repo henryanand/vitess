@@ -23,7 +23,7 @@ from mysql_flavor import set_mysql_flavor
 
 options = None
 devnull = open('/dev/null', 'w')
-hostname = socket.gethostname()
+hostname = socket.getfqdn()
 
 # binlog_player_protocol_flags defines the flags to use for the binlog players.
 # A test can overwrite these flags before calling utils.main().

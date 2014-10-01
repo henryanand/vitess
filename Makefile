@@ -13,7 +13,7 @@ build:
 
 # Set VT_TEST_FLAGS to pass flags to python tests.
 # For example, verbose output: export VT_TEST_FLAGS=-v
-test: unit_test queryservice_test integration_test
+test: unit_test integration_test
 site_test: unit_test site_integration_test
 
 clean:
@@ -63,7 +63,6 @@ integration_test_files = \
 	keyrange_test.py \
 	keyspace_test.py \
 	mysqlctl.py \
-	reparent.py \
 	resharding_bytes.py \
 	resharding.py \
 	rowcache_invalidator.py \
@@ -72,8 +71,6 @@ integration_test_files = \
 	sharded.py \
 	tabletmanager.py \
 	update_stream.py \
-	vertical_split.py \
-	vertical_split_vtgate.py \
 	vtdb_test.py \
 	vtgate_test.py \
 	vtgatev2_test.py \
